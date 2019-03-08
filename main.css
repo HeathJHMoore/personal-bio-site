@@ -2,10 +2,26 @@ body {
   background-color:silver;
 }
 
+#navLinks {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: square;
+    border: solid 1px black;
+    font-size: 18px;
+}
+
+#navContainer {
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 1px black; */
+    width:40%;
+}
+
 #projectsPage {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    margin: 25px;
 }
 
 .project_cards {
@@ -23,5 +39,9 @@ body {
 }
 
 .project_cards p {
+    text-align: center;
+}
+
+.page-footer {
     text-align: center;
 }
