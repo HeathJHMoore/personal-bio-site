@@ -62,7 +62,7 @@ const createProjectCards = () => {
         if (projects[i].available === true) {
         domString += `<div id = 'project${(i+1)}' class = 'project_cards'>`
         domString +=    `<h2>${projects[i].title}</h2>`
-        domString +=    `<img src=${projects[i].screenshot}>`
+        domString +=    `<img src=${projects[i].screenshot} alt="random cool image">`
         domString +=    `<p><strong>Description:</strong> ${projects[i].description}</p>`
         domString +=    `<p><strong>Technologies Used:</strong> <br> ${projects[i].technologiesUsed}</p>`
         domString +=    `<p><a href=${projects[i].url}>Click Here to See Project</a></p>`
