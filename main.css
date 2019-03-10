@@ -1,6 +1,6 @@
 
 body {
-  background-color: white;
+  background-color: lightgrey;
   border: solid 1px black;
   margin: 0px;
   font-family: 'Raleway', sans-serif;
@@ -25,14 +25,52 @@ nav h1 {
 
 ul {
     display: flex;
-    width: 30%;
+    width: 35%;
     justify-content: space-between;
     list-style-type: none;
     font-size: 22px;
-    padding-right: 10px;
+    padding-right: 15px;
     color: azure;
     font-weight: 300;
 }
+
+.icon-bar {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    justify-content: space-between;
+    height: 100px;
+}
+
+
+  .linkedin {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #007bb5;
+    color: white;
+    height: 50%;
+    font-size: 25px;
+
+  }
+  
+  .github {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background:darkgray;
+    color: black;
+    height: 50%;
+    font-size: 25px;
+  }
 
 /* #navLinks {
     display: flex;
@@ -83,4 +121,12 @@ ul {
 
 .page-footer {
     text-align: center;
+}
+
+footer {
+    background-color: cadetblue;
+    font-size: 18px;
+    color: azure;
+    height: 40px;
+    padding-top: 14px;
 }
