@@ -73,7 +73,7 @@ const createProjectCards = () => {
     return domString;
 }
 
-const init = () => {
+const init = () => { 
     printToDom('projectsPage', createProjectCards());
 }
 
