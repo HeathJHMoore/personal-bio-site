@@ -1,25 +1,24 @@
 
 body {
-  background-color: lightgrey;
-  border: solid 1px black;
   margin: 0px;
   font-family: 'Raleway', sans-serif;
+  background-color: #FF6A5C
 }
 
 
 nav {
     display: flex;
     border: solid 1px black;
-    background-color: cadetblue;
+    background-color: white;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 1;
+    color: #056571;
 }
 
 nav h1 {
     padding-left: 10px;
-    color: azure;
     font-weight: 300;
     font-family: 'Work Sans', sans-serif;
 }
@@ -31,13 +30,14 @@ ul {
     list-style-type: none;
     font-size: 22px;
     padding-right: 15px;
-    color: azure;
     font-weight: 300;
 }
 
+
+
 .icon-bar {
     position: fixed;
-    top: 100px;
+    top: 98px;
     right: -425px;
     transition: 0.5s;
     display: flex;
@@ -139,9 +139,18 @@ ul {
     transition-duration: .3s;
 }
 
-.project_cards:hover {
+.project_cards:nth-child(even):hover{
     transform: scale(1.05);
     transition-duration: .3s;
+    background-color:  #056571;
+    color: white;
+}
+
+.project_cards:nth-child(odd):hover{
+    transform: scale(1.05);
+    transition-duration: .3s;
+    background-color: #7e7979 ;
+    color: white;
 }
 
 .project_cards h2 {
@@ -152,14 +161,35 @@ ul {
     text-align: center;
 }
 
+.project_cards a {
+    color: black;
+}
+
 .page-footer {
     text-align: center;
 }
 
 footer {
-    background-color: cadetblue;
+    background-color: white;
     font-size: 18px;
-    color: azure;
+    color:#FF6A5C;;
     height: 40px;
     padding-top: 14px;
 }
+
+
+.dark-primary-color    { background: #455A64; }
+.default-primary-color { background: #607D8B; }
+.light-primary-color   { background: #CFD8DC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #00BCD4; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+
+/* color scheme */
+.matte {background-color: #7e7979}
+.fresh {background-color: #CCDFCB}
+.watermelon {background-color: #FF6A5C}
+.teal {background-color: #056571}
