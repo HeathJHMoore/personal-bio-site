@@ -2,7 +2,7 @@
 body {
   margin: 0px;
   font-family: 'Raleway', sans-serif;
-  background-color: #FF6A5C
+  background-color: #056571
 }
 
 
@@ -33,7 +33,23 @@ ul {
     font-weight: 300;
 }
 
+ul li:hover {
+    cursor: pointer;
+}
 
+#bioPageContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+border: solid 1px black;
+height: 650px;   
+background-color: #7e7979;
+}
+
+#bioPage {
+    width: 50%;
+    color: white;
+}
 
 .icon-bar {
     position: fixed;
@@ -44,7 +60,7 @@ ul {
     flex-direction: column;
     border: solid 1px black;
     justify-content: space-between;
-    height: 100px;
+    height: 150px;
     width: 470px;
     z-index: 1;
 }
@@ -68,7 +84,7 @@ ul {
     text-decoration: none;
     background: #007bb5;
     color: white;
-    height: 50%;
+    height: 33%;
     font-size: 25px;
   }
 
@@ -87,7 +103,7 @@ ul {
     text-decoration: none;
     background:black;
     color: azure;
-    height: 50%;
+    height: 33%;
     font-size: 25px;
   }
 
@@ -96,6 +112,25 @@ ul {
       justify-content: center;
       width: 10%;
       border-right: solid 1px white;
+  }
+
+  .gmail {
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background:#d64a3a;
+    color: white;
+    height: 33%;
+    font-size: 25px;
+  }
+
+  .gmail i {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    border-right: solid 1px white;
   }
 
 /* #navLinks {
@@ -142,14 +177,14 @@ ul {
 .project_cards:nth-child(even):hover{
     transform: scale(1.05);
     transition-duration: .3s;
-    background-color:  #056571;
+    background-color:  #FF6A5C;
     color: white;
 }
 
 .project_cards:nth-child(odd):hover{
     transform: scale(1.05);
     transition-duration: .3s;
-    background-color: #7e7979 ;
+    background-color: #FF6A5C ;
     color: white;
 }
 
@@ -172,7 +207,7 @@ ul {
 footer {
     background-color: white;
     font-size: 18px;
-    color:#FF6A5C;;
+    color:#056571;
     height: 40px;
     padding-top: 14px;
 }
