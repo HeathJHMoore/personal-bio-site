@@ -140,17 +140,31 @@ background-color: #7e7979;
     background-color: #e7dede;
   }
 
+
   #technologiesPage {
-    width: 75%;
+    width: 80%;
+    height: 85%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     align-items: center;
-    font-size: 85px;
+    font-size: 55px;
   }
+
+  #technologiesHeader {
+    text-align: center;
+  }
+
 
   #technologiesPage img {
     height: 150px;
+  }
+
+  #badges {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
   }
 /* #navLinks {
     display: flex;
