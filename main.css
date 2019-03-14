@@ -133,6 +133,25 @@ background-color: #7e7979;
     border-right: solid 1px white;
   }
 
+  #technologiesContainer {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #e7dede;
+  }
+
+  #technologiesPage {
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: 85px;
+  }
+
+  #technologiesPage img {
+    height: 150px;
+  }
 /* #navLinks {
     display: flex;
     justify-content: ;
