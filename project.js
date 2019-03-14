@@ -4,7 +4,7 @@
 const projects = [
   {
     title: "Cool Project 1",
-    screenshot: "https://picsum.photos/200",
+    screenshot: "./python-brands.svg",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML, CSS, Vanilla JavaScript, Version Control with Github",
@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: "Cool Project 2",
-    screenshot: "https://picsum.photos/200",
+    screenshot: "./python-brands.svg",
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed:
       "HTML, CSS, Vanilla JavaScript, Version Control with Github",
@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: "Cool Project 3", 
-    screenshot: "https://picsum.photos/200", 
+    screenshot: "./python-brands.svg", 
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     available: true,
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     title: "Cool Project 4", 
-    screenshot: "https://picsum.photos/200", 
+    screenshot: "./python-brands.svg", 
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     available: true,
@@ -42,7 +42,7 @@ const projects = [
   },
   {
     title: "Cool Project 5", 
-    screenshot: "https://picsum.photos/200", 
+    screenshot: "./python-brands.svg", 
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     available: true,
@@ -62,7 +62,7 @@ const createProjectCards = () => {
         if (projects[i].available === true) {
         domString += `<div id = 'project${(i+1)}' class = 'project_cards'>`
         domString +=    `<h2>${projects[i].title}</h2>`
-        domString +=    `<img src=${projects[i].screenshot} alt="random cool image">`
+        domString +=    `<img src=${projects[i].screenshot} alt="random cool image" height="200px">`
         domString +=    `<p><strong>Description:</strong> ${projects[i].description}</p>`
         domString +=    `<p><strong>Technologies Used:</strong> <br> ${projects[i].technologiesUsed}</p>`
         domString +=    `<p><a href=${projects[i].url}>Click Here to See Project</a></p>`
