@@ -1,4 +1,4 @@
-# Pet Adoption
+# Personal Site
 
 Check out out my personal website! This is still very much a work in progress but I hope to have this website serve as portfolio for my software projects.
 
