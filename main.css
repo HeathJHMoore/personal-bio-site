@@ -5,7 +5,6 @@ body {
   background-color: #056571
 }
 
-
 nav {
     display: flex;
     border: solid 1px black;
@@ -244,6 +243,11 @@ footer {
     color:#056571;
     height: 40px;
     padding-top: 14px;
+}
+
+
+.hide {
+    display: none !important;
 }
 
 
